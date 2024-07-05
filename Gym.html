@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale 1.0">
+        <meta name="author" content="Shahid Hussain">
+        <link rel="shortcut icon" href="insta.png" type="/x-png">
+        <title> Gym's Site</title>
+        <style>
+            body{
+                font-family: 'Inconsolata', monospace;
+                background-image: url("dumble.jpg");
+                background-attachment: fixed;
+                background-position: center;
+                background-size: cover;
+                padding:0px;
+                margin:0px;
+                width:auto;
+                height: auto;
+            }
+            *{
+                margin: 0px;
+                padding:0px;
+                box-sizing: border-box;
+
+            }
+            .left{
+                /* border:3px solid yellow; */
+                color:white;
+                display: inline-block;
+                position: absolute;
+                left:30px;
+                top:20px;
+            }
+            .mid{
+                display: block;
+                width: 45%;
+                margin: 48px auto;
+                /* border: 2px solid green; */
+            }
+            .right{
+                position: absolute;
+                right: 34px;
+                top: 43px;
+                display: inline-block;
+                /* border: 2px solid yellow; */
+            }
+            .nav{
+                display: inline-block;
+
+            }
+            .nav li{
+                display: inline-block;
+                font-size: 18px;
+            }
+            .nav li a{
+                color:white;
+                text-decoration: none;
+                padding: 20px 20px;
+            }
+            
+            .nav li a:active,nav li a.active{
+                text-decoration: underline;
+                color:lightpink;
+            }
+            .left img{
+                width: 60px;
+            }
+            .btn{
+                margin:0px 9px;
+                padding: 4px 15px;
+                background-color: black;
+                color:white;
+                border:2px solid grey;
+                border-radius: 10px;
+                font-size:18px;
+                cursor: pointer;
+                font-family: 'Inconsolata', monospace;
+            }
+            .btn:hover{
+                 background-color: grey;
+                 transition: all 0.3s;
+                 
+            }
+            .container{
+                border: 2px solid white;
+                margin: 100px 50px;
+                padding: 50px;
+                width: 40%;
+                 border-radius: 28px;
+                 color:white;
+            }
+            .form-group input {
+        font-family: 'Baloo Bhai', cursive;
+        text-align: center;
+        display: block;
+        width: 508px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 8px;
+    }
+    .container button{
+        width:80%;
+        display: block;
+        margin:20px auto;
+    }
+    .container h1{
+        text-align: center;
+    }
+        </style>
+        
+    </head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <body>
+     
+            <header class="header" >
+                <div class="left">
+                    <img class="logo" src="logo.png" alt="instagram logo">
+                    <div>Shahid Fitness</div>
+                </div>
+                <div class="mid">
+                    <ul class="nav">
+                        <li><a class ="active"href="#Home" >Home</a></li>
+                        <li><a href="#About Us">About Us</a></li>
+                        <li><a href="#FitnessCalculator">FitnessCalculator</a></li>
+                        <li><a href="#Conatact Us">Contact Us</a></li>
+                          </ul>
+                </div>
+                <div class="right">
+                    <button class="btn">Contact Us</button>
+                    <button class="btn" >Email Us</button>
+                </div>
+            </header>
+            <div class="container">
+                <h1>Join The Best gym of Noida</h1>
+                <form action="Result.html">
+                    <div class="form-group">
+                        <input type="text" placeholder="Enter Your Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Enter Your Age">
+                    </div>
+                    <div class="form-group">
+                    <input type="text" placeholder="Enter Your Gender">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Enter Your Locality">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Enter Your Email">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name=""placeholder="Enter Your Number">
+                    </div>
+                    <button class="btn">Submit</button>
+                </form>
+            </div>
+    </body>
+</html>
